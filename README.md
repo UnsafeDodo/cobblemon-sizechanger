@@ -9,7 +9,7 @@ Put the .jar file in the "mods" folder
 
 <br><br>
 ## Commands
-There is only one command: `/pokesize <player><partyslot><scale>`
+There is only one command: `/pokesize <player> <partyslot> <scale>`
 
 Example: scaling my first pokémon in the team by 2.5 will be `/pokesize UnsafeDodo 1 2.5`
 
