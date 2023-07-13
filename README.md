@@ -17,3 +17,7 @@ Example: scaling my first pokémon in the team by 2.5 will be `/pokesize UnsafeD
 ## Permissions
 By default the command can be run by admins only.
 This mod supports LuckPerms, and the permission to use it is `pokesize.set` 
+<br><br>
+
+## Showcase
+![Screenshot](https://i.imgur.com/dSn0yAs.png)
