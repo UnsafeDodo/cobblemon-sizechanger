@@ -19,5 +19,8 @@ By default the command can be run by admins only.
 This mod supports LuckPerms, and the permission to use it is `pokesize.set` 
 <br><br>
 
+### Discord
+Join my [discord server](https://discord.gg/tExFemXyJS) if you need support for one of my mods!
+
 ## Showcase
 ![Screenshot](https://i.imgur.com/dSn0yAs.png)
