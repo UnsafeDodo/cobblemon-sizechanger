@@ -12,11 +12,9 @@ base {
 
 repositories {
 	mavenCentral()
+
 	maven {
-		url = uri("https://cursemaven.com")
-		content {
-			includeGroup("curse.maven")
-		}
+		url = "https://api.modrinth.com/maven"
 	}
 
 	maven {
@@ -47,7 +45,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	include(modImplementation('me.lucko:fabric-permissions-api:0.2-SNAPSHOT'))
-	modImplementation("curse.maven:cobblemon-687131:${project.cobblemon_curse_file_id}")
+	modImplementation("maven.modrinth:cobblemon:${property("cobblemon_modrinth_file_id")}")
 	compileOnly 'net.luckperms:api:5.4'
 }
 

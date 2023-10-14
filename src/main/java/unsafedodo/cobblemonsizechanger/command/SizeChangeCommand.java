@@ -35,10 +35,10 @@ public class SizeChangeCommand {
         if(selectedPokemon != null){
             selectedPokemon.setScaleModifier((float) scale);
             party.set(slot-1, selectedPokemon);
-            context.getSource().sendFeedback(Text.literal(String.format("Pokémon's size for %s has been changed", playerTarget.getEntityName())).formatted(Formatting.GREEN), false);
+            context.getSource().sendFeedback(() -> Text.literal(String.format("Pokémon's size for %s has been changed", playerTarget.getEntityName())).formatted(Formatting.GREEN), false);
             return 0;
         } else {
-            context.getSource().sendFeedback(Text.literal(String.format("Slot %d does not have a pokémon. Please select another slot", slot)).formatted(Formatting.RED), false);
+            context.getSource().sendFeedback(() -> Text.literal(String.format("Slot %d does not have a pokémon. Please select another slot", slot)).formatted(Formatting.RED), false);
             return -1;
         }
     }
